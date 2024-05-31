@@ -10,7 +10,7 @@ I did not want to build another clock, and I thought a calculator might be a bit
 
 <img src="assets/sharp_compet.jpg" width="500px">
 
-## Driving r IV-12 Tube
+## Driving an IV-12 Tube
 
 <img src="assets/iv12_tubes.jpg" width="500px">
 
@@ -18,7 +18,7 @@ Image by eBay Seller "USSR Vacuum tubes and Soviet Valves" (https://www.ebay.com
 
 Before I went ahead with the project, I wanted to make sure I knew how to drive the tubes. Some research revealed the following information.
 
-The pins of r IV-12 tube are keyed so they can only be socketed in the correct orientation. The image below shows the pinout of an IV-12 tube when looking at it from above.
+The pins of an IV-12 tube are keyed so they can only be socketed in the correct orientation. The image below shows the pinout of an IV-12 tube when looking at it from above.
 
 <table>
     <tr>
