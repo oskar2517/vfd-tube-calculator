@@ -18,7 +18,7 @@ Image by eBay Seller "USSR Vacuum tubes and Soviet Valves" (https://www.ebay.com
 
 Before I went ahead with the project, I wanted to make sure I knew how to drive the tubes. Some research revealed the following information.
 
-The pins of r IV-12 tube are keyed so they can only be socketed in the correct orientation. The image below shows the pinout of r IV-12 tube when looking at it from above.
+The pins of r IV-12 tube are keyed so they can only be socketed in the correct orientation. The image below shows the pinout of an IV-12 tube when looking at it from above.
 
 <table>
     <tr>
@@ -35,7 +35,7 @@ Pins `a`-`f` are connected to the anodes that form the segments of the digit. Th
 
 When  looking into a tube, you will notice a fine mesh formed from thin wire in front of the segments. It is connected to the `grid` pin and, when connected to positive potential of 25 volts, will enable the tube. When it is left floating or connected to a negative potential, all segments will remain disabled even when a positive voltage is applied to the anodes. This allows for multiplexing of the tubes.
 
-When looking even closer, you may also notice two extremely thin wires in front of the grid. This is the so-called filament. When connected to 1.5 volts (polarity irrelevant), the filament will heat up and start emitting electrons. The positively charged grid will accelerate them towards the segments behind it. In front of the anodes that form the segments lies a phosphor-coated substrate. When a positive potential is applied to r anode, the electrons will be further accelerated towards it until they hit the phosphor and cause it to light up (similar to a CRT). The segment is now illuminated.
+When looking even closer, you may also notice two extremely thin wires in front of the grid. This is the so-called filament. When connected to 1.5 volts (polarity irrelevant), the filament will heat up and start emitting electrons. The positively charged grid will accelerate them towards the segments behind it. In front of the anodes that form the segments lies a phosphor-coated substrate. When a positive potential is applied to an anode, the electrons will be further accelerated towards it until they hit the phosphor and cause it to light up (similar to a CRT). The segment is now illuminated.
 
 No current-limiting resistors are required to drive a tube. IV-12 tubes require very little current (110mA for the filament, 12mA for the grid, 4mA for each segment) so driving them from a low-power source like a AA battery is possible when the voltage is properly regulated.
 
@@ -43,17 +43,17 @@ No current-limiting resistors are required to drive a tube. IV-12 tubes require 
 
 When driving multiple tubes simultaneously, it is generally recommended to use multiplexing to reduce the number of data pins required to display a number. Normally, the seven segment pins of each tube would need to be connected individually to the data source (in this case, a microcontroller). With multiplexing, however, the same segment pin on every tube is connected in parallel with the corresponding pin on every other tube. For example, all the `a` pins would be connected together. This way, only seven data lines need to be connected to the microcontroller.
 
-To prevent all tubes from displaying the same digit, the grid pin of each tube must be connected to the microcontroller. The microcontroller can then scan through the tubes by setting only one `grid` pin to 25 volts at a time and writing the digit it should display to the data lines. When driven at a sufficiently high frequency it will appear as if all tubes are on all the time to the human eye.
+To prevent all tubes from displaying the same digit, the grid pin of each tube must be connected to the microcontroller. The microcontroller can then scan through the tubes by setting only one `grid` pin to 25 volts at a time and writing the digit it should display to the data lines. When driven at a sufficiently high frequency it will appear as if all tubes are on simultaneously to the human eye.
 
 <img src="assets/multiplex_logic.png" width="500px">
 
 ## Designing the and Building the Keyboard
 
-I started by designing the calculator's keypad for which I wanted to use regular key caps and Cherry MX switches. After a bit of research, I found [this tutorial](https://www.instructables.com/Arduino-Mechanical-Keypad-1/) on building a keypad using r Arduino. I followed the instructions and designed a backplate which I had 3D printed.
+I started by designing the calculator's keypad for which I wanted to use regular key caps and Cherry MX switches. After a bit of research, I found [this tutorial](https://www.instructables.com/Arduino-Mechanical-Keypad-1/) on building a keypad using an Arduino. I followed the instructions and designed a backplate which I had 3D printed.
 
 <img src="assets/keypad_model.png" width="500px">
 
-I ordered Cherry MX Brown switches from Amazon and a set of key caps from AliExpress. Since there is no key which only contains r equals sign on a regular US keyboard, I had to substitute it with a one that had a cute little rocket on it. I could have had custom key caps printed but I did not think it would be worth it.
+I ordered Cherry MX Brown switches from Amazon and a set of key caps from AliExpress. Since there is no key which only contains an equals sign on a regular US keyboard, I had to substitute it with a one that had a cute little rocket on it. I could have had custom key caps printed but I did not think it would be worth it.
 
 <img src="assets/keypad_keys.jpg" width="500px">
 
@@ -146,7 +146,7 @@ After sketching out the logic, I converted it into a PCB of the required dimensi
 
 <img src="assets/pcb_board.png" width="500px">
 
-I sent my files off to [JLCPCB](https://jlcpcb.com/) for production. Because I selected the transistor arrays from their library, they were able source the chips and reflow solder them to the board for me. About two weeks later, the partly assembled PCBs arrived at my doorstep. Note how I went with pins to connect the tubes. I crimped Dupont connectors to the exposed tube wires so the could be easily attached to the PCB. 
+I sent my files off to [JLCPCB](https://jlcpcb.com/) for production. Because I selected the transistor arrays from their library, they were able source the chips and reflow solder them to the board for me. About two weeks later, the partly assembled PCBs arrived at my doorstep. Note how I went with pins to connect the tubes. I crimped Dupont connectors to the exposed tube wires so they could be easily attached to the PCB. 
 
 <img src="assets/pcb_partly_assembled.jpg" width="500px">
 
@@ -229,7 +229,6 @@ The full source code can be found [here](software/software.ino).
 I am very pleased with how this project turned out, especially the veneer, which exceeded my expectations. The calculator can perform integer addition, subtraction, multiplication, and division up to 99,999. It even produces a slight hum when turned on, which adds to its retro charm, although I am not exactly sure what causes it.
 
 Here are some final pictures of the calculator in action.
-
 
 <table>
     <tr>
