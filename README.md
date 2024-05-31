@@ -122,7 +122,7 @@ I later attached some rubber feet to the bottom plate so the calculator would no
 
 Since I wanted the tubes to be replaceable in case they ever failed, I ordered a few matching ceramic tube sockets from AliExpress (thanfully, IV-12 tubes use a common 10 pin socket). Unfortunately, it seems the IV-12 tubes I purchased were not produced to the highest standards. All the pins were ever so slightly bent and did not fit into the sockets initially. However, after some careful work with a pair of pliers, I was able to resolve this issue. 
 
-I constructed a longer cable by soldering together short pieces of wire, arranging them to facilitate easy soldering to the socket pins. I connected the tubes as shown in the schematic above, leaving the grid pin of each socket separate (green wires). The yellow wires connect all segments in parallel, while the red and blue wires are connected to the filament. To prevent any shorts, I covered the exposed solder joints with heat-shrink tubing.
+I constructed a longer cable by soldering together short pieces of wire, arranging them to facilitate easy soldering to the socket pins. I connected the tubes as shown in the schematic above, leaving the grid pin of each socket separate (green wires). The yellow wires connect all segments in parallel, while the red and black wires are connected to the filament. To prevent any shorts, I covered the exposed solder joints with heat-shrink tubing.
 
 <table>
     <tr>
