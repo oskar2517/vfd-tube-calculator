@@ -145,7 +145,7 @@ I constructed a longer cable by soldering together short pieces of wire, arrangi
 
 ## The Main PCB
 
-After a few failed attempts at wiring the grid for the keypad on a perfboard (I suck at soldering), I abandoned the idea and decided to design a custom PCB instead. Although I had never done anything like this before, it turned out to be quite straightforward. Using [EasyEDA](https://easyeda.com/), I took advantage of the community-provided footprints to design a board that would not only hold the keys but also the microcontroller, the DC-DC voltage converters required to drive the tubes, and the transistor arrays that would allow the Arduino to supply the necessary voltages.
+After a few unsuccessful attempts at wiring the grid for the keypad on a perfboard, I abandoned the idea and decided to design a custom PCB instead. Although I had never done anything like this before, it turned out to be quite straightforward. Using [EasyEDA](https://easyeda.com/), I took advantage of the community-provided footprints to design a board that would not only hold the keys but also the microcontroller, the DC-DC voltage converters required to drive the tubes, and the transistor arrays that would allow the Arduino to supply the necessary voltages.
 
 <img src="assets/pcb_logic.png" width="500px">
 
