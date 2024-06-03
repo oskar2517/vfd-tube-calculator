@@ -2,6 +2,13 @@
 
 I have always been interested in working with microcontrollers, and I recently decided to start a project that incorporates them. I chose to build a simple calculator, using IV-12 VFD (Vacuum Fluorescent Display) tubes for the display. These tubes, with their vintage look, offer a unique alternative to modern displays. In this post, I will walk you through my process of creating this calculator, from the initial idea to the finished product.
 
+## Links
+
+I have made the designs I created for this project public.
+
+- [Case on OnShape](https://cad.onshape.com/documents/a4ae1405305666595e09043b/w/0e8e4ae062d4480707db0af8/e/1a3de19df3b258f3a9cb75c0?renderMode=0&uiState=665d2b0371c1f274a04f2a77)
+- [Mainboard on EasyEDA](https://oshwlab.com/oskar2233/rechner_pcb)
+
 ## The Idea
 
 I have been fascinated with [Nixie tubes](https://en.wikipedia.org/wiki/Nixie_tube) ever since I first learned about them in a [YouTube video](https://youtu.be/s4-pgzyT0No?si=MB0ZcV2Ts6cme0ZN) by Techmoan. Today, I own a beautiful Nixie clock with four IN-14 tubes and a Sharp Compet 23 desk calculator from the 1960s. I have wanted to build my own device using Nixie tubes for a long time, but as someone with very little experience in electrical engineering, I have always found the high voltages required to drive them somewhat daunting. So I began searching for alternative display technologies with a similar charm and came across VFD tubes. These largely replaced Nixie tubes in the 1970s and required much lower operating voltages. VFD tubes from old stock are still widely available in various shapes and sizes on eBay.
