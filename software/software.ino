@@ -255,8 +255,11 @@ void loop() {
     case '-':
     case '*':
     case '/':
-      shouldClear = false;
+      performCalculation();
+      display = registerA;
+      
       mathOperator = currentKey;
+      shouldClear = false;
       break;
 
     case '=':
