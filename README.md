@@ -8,6 +8,7 @@ I have made the designs I created for this project public.
 
 - [Case on OnShape](https://cad.onshape.com/documents/a4ae1405305666595e09043b/w/0e8e4ae062d4480707db0af8/e/1a3de19df3b258f3a9cb75c0?renderMode=0&uiState=665d2b0371c1f274a04f2a77)
 - [Mainboard on EasyEDA](https://oshwlab.com/oskar2233/rechner_pcb)
+- [Keyboard STL file](keyboard/keyboard.stl)
 
 ## The Idea
 
