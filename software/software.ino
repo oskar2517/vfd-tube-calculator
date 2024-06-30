@@ -268,7 +268,7 @@ void loop() {
       break;
 
     default:
-      if (currentKey < '0' && currentKey > '9') {
+      if (currentKey < '0' || currentKey > '9') {
         return;
       }
       
