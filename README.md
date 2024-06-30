@@ -42,7 +42,7 @@ The pins of an IV-12 tube are keyed so they can only be socketed in the correct 
 
 Pins `a`-`f` are connected to the anodes that form the segments of the digit. They follow the conventional segment names still used in modern 7-segment LCDs. To enable a segment, a positive potential of 25 volts has to be applied to its corresponding pin. To turn it off, a slightly negative potential should be applied instead but in my testing, leaving a segment floating reliably disabled it as well.
 
-When  looking into a tube, you will notice a fine mesh formed from thin wire in front of the segments. It is connected to the `grid` pin and, when connected to positive potential of 25 volts, will enable the tube. When it is left floating or connected to a negative potential, all segments will remain disabled even when a positive voltage is applied to the anodes. This allows for multiplexing of the tubes.
+When  looking into a tube, you will notice a fine mesh formed from thin wire in front of the segments. It is connected to the `grid` pin and, when connected to positive potential of 25 volts (in regards to the cathode), will enable the tube. When it is left floating or connected to a negative potential, all segments will remain disabled even when a positive voltage is applied to the anodes. This allows for multiplexing of the tubes.
 
 When looking even closer, you may also notice two extremely thin wires in front of the grid. This is the so-called filament and acts as the tube's cathode. When connected to 1.5 volts (polarity irrelevant), the filament will heat up and start emitting electrons. The positively charged grid will accelerate them towards the segments behind it. In front of the anodes that form the segments lies a phosphor-coated substrate. When a positive potential is applied to an anode, the electrons will be further accelerated towards it until they hit the phosphor and cause it to light up (similar to a CRT). The segment is now illuminated. 
 
@@ -131,7 +131,7 @@ I later attached some rubber feet to the bottom plate so the calculator would no
 
 ## Wiring the Tubes
 
-Since I wanted the tubes to be replaceable in case they ever failed, I ordered a few matching ceramic tube sockets from AliExpress (thanfully, IV-12 tubes use a common 10 pin socket). Unfortunately, it seems the IV-12 tubes I purchased were not produced to the highest standards. All the pins were ever so slightly bent and did not fit into the sockets initially. However, after some careful work with a pair of pliers, I was able to resolve this issue. 
+Since I wanted the tubes to be replaceable in case they ever failed, I ordered a few matching ceramic tube sockets from AliExpress (thanfully, IV-12 tubes use a common 10 pin socket). Fitting the tubes into the sockets required some careful force and work with pliers.
 
 I constructed a longer cable by soldering together short pieces of wire, arranging them to facilitate easy soldering to the socket pins. I connected the tubes as shown in the schematic above, leaving the grid pin of each socket separate (green wires). The yellow wires connect all segments in parallel, while the red and black wires are connected to the filament. To prevent any shorts, I covered the exposed solder joints with heat-shrink tubing.
 
