@@ -174,7 +174,7 @@ The only thing I had to do was soldering on the microcontroller and the boost un
     </tr>
 </table>
 
-After assembling the main PCB, I mounted it to the case and connected the tubes. I later added a switch, a charge controller and a 21700 lithium battery that would allow me to use the calculator portably.
+After assembling the main PCB, I mounted it to the case and connected the tubes. I put 5mm PCB standoffs between the 3D printed backplate and the case so that the keys would not stick out too much. I later added a switch, a charge controller and a 21700 lithium battery that would allow me to use the calculator portably.
 
 <table>
     <tr>
