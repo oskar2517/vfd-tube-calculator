@@ -244,26 +244,26 @@ Here are some final pictures of the calculator in action.
 <table>
     <tr>
         <td>
-            <img src="assets/finished_1.jpg">
+            <img src="assets/PXL_20240724_191359056.jpg">
         </td>
          <td>
-            <img src="assets/finished_2.jpg">
+            <img src="assets/PXL_20240724_191413226.jpg">
         </td>
     </tr>
     <tr>
         <td>
-            <img src="assets/finished_3.jpg">
+            <img src="assets/PXL_20240724_191433307.jpg">
         </td>
          <td>
-            <img src="assets/finished_4.jpg">
+            <img src="assets/PXL_20240724_191446560.jpg">
         </td>
     </tr>
     <tr>
         <td>
-            <img src="assets/finished_5.jpg">
+            <img src="assets/PXL_20240724_191455052.jpg">
         </td>
          <td>
-            <!-- -->
+            <img src="assets/PXL_20240724_191508552.jpg">
         </td>
     </tr>
 </table>
