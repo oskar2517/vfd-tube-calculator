@@ -267,3 +267,26 @@ Here are some final pictures of the calculator in action.
         </td>
     </tr>
 </table>
+
+## My project has been replicated!
+
+After I posted my calculator on Reddit, a user contacted me about building his own calculator based on my designs. I am extremely honored that someone else has taken the time and effort to replicate my project! Here are some pictures of their build:
+
+<table>
+    <tr>
+        <td>
+            <img src="assets/reddit_project_1.jpeg">
+        </td>
+         <td>
+            <img src="assets/reddit_project_2.jpeg">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="assets/reddit_project_3.jpeg">
+        </td>
+         <td>
+            <img src="assets/reddit_project_4.jpeg">
+        </td>
+    </tr>
+</table>
